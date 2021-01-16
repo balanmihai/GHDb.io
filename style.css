@@ -48,7 +48,6 @@ h3 {
   background: var(--grey);
   display: grid;
   grid-template-columns: 4vw 12fr 5fr 4vw;
-  /* clip-path: polygon(0 0, 100% 0, 100% 81%, 0 95%); */
 }
 
 .landing svg {
@@ -69,12 +68,13 @@ nav {
 
 .leftlanding {
   grid-column: 2/3;
-  padding-top: 10vh;
+  padding-top: 7vh;
 }
 
 .rightlanding {
+  padding-left: 5vw;
   grid-column: 3/4;
-  padding-bottom: 10vh;
+  padding-bottom: 12vh;
 }
 
 button {
@@ -208,7 +208,7 @@ button:hover {
   width: auto;
 }
 .phone {
-  height: 500px;
+  height: 450px;
   width: auto;
   transition: 0.4s;
 }

@@ -510,6 +510,13 @@ button:hover {
   .member4:hover {
     transform: scale(1.1);
   }
+  
+  .github {
+  z-index: 20;
+  padding-top: 3vh;
+  height: 50px;
+  width: auto;
+}
 
   .info {
     grid-column: 2/3;
